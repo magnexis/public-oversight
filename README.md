@@ -106,30 +106,11 @@ The app is intentionally frontend-first:
 - `npm run start` - Starts the production server
 - `npm run lint` - Runs the Next.js lint command
 
-## Data Notes
-
-- The app uses local data files under `data/`.
-- The surveillance tracker is generated from public source material and rendered locally.
-- The project is ready to expand later with real storage, uploads, user submissions, maps, and verified public records.
-- The current build is intended to be deployable immediately to Vercel.
-
-## Deployment
-
-This repository includes a `vercel.json` file so Vercel can use the intended Next.js setup.
-
-Typical deployment flow:
-
-1. Push the repository to GitHub.
-2. Import the project into Vercel.
-3. Let Vercel detect the Next.js framework.
-4. Deploy using the configured install and build commands.
 
 ## Maintenance Notes
 
 - The site is maintained as a source-led front end.
 - The brand styling is intentionally dark, premium, and civic-minded.
-- Reusable components should be preferred over page-specific duplication.
-- Public records and oversight copy should stay direct and non-alarmist.
 
 ## Contributions
 
