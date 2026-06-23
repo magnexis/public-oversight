@@ -84,15 +84,6 @@ The app is intentionally frontend-first:
 - `docx`
 - Vercel Analytics
 
-## Project Structure
-
-- `app/` - App Router pages, layouts, and route-level UI
-- `components/` - Reusable UI components and page building blocks
-- `data/` - Local records, mock/source files, and content collections
-- `lib/` - Shared types and helpers
-- `scripts/` - Local generation and maintenance scripts
-- `public/` - Static assets such as the Magnexis logo
-
 ## Routes
 
 - `/` - Home
@@ -106,37 +97,6 @@ The app is intentionally frontend-first:
 - `/articles/topics` - Topic index
 - `/about` - Mission and project context
 
-## Getting Started
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the Turbopack dev server:
-
-```bash
-npm run dev
-```
-
-Run the standard Next.js dev server:
-
-```bash
-npm run dev:webpack
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Start the production server:
-
-```bash
-npm run start
-```
 
 ## Scripts
 
@@ -146,30 +106,11 @@ npm run start
 - `npm run start` - Starts the production server
 - `npm run lint` - Runs the Next.js lint command
 
-## Data Notes
-
-- The app uses local data files under `data/`.
-- The surveillance tracker is generated from public source material and rendered locally.
-- The project is ready to expand later with real storage, uploads, user submissions, maps, and verified public records.
-- The current build is intended to be deployable immediately to Vercel.
-
-## Deployment
-
-This repository includes a `vercel.json` file so Vercel can use the intended Next.js setup.
-
-Typical deployment flow:
-
-1. Push the repository to GitHub.
-2. Import the project into Vercel.
-3. Let Vercel detect the Next.js framework.
-4. Deploy using the configured install and build commands.
 
 ## Maintenance Notes
 
 - The site is maintained as a source-led front end.
 - The brand styling is intentionally dark, premium, and civic-minded.
-- Reusable components should be preferred over page-specific duplication.
-- Public records and oversight copy should stay direct and non-alarmist.
 
 ## Contributions
 
