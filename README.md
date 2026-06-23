@@ -84,15 +84,6 @@ The app is intentionally frontend-first:
 - `docx`
 - Vercel Analytics
 
-## Project Structure
-
-- `app/` - App Router pages, layouts, and route-level UI
-- `components/` - Reusable UI components and page building blocks
-- `data/` - Local records, mock/source files, and content collections
-- `lib/` - Shared types and helpers
-- `scripts/` - Local generation and maintenance scripts
-- `public/` - Static assets such as the Magnexis logo
-
 ## Routes
 
 - `/` - Home
@@ -106,37 +97,6 @@ The app is intentionally frontend-first:
 - `/articles/topics` - Topic index
 - `/about` - Mission and project context
 
-## Getting Started
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the Turbopack dev server:
-
-```bash
-npm run dev
-```
-
-Run the standard Next.js dev server:
-
-```bash
-npm run dev:webpack
-```
-
-Build for production:
-
-```bash
-npm run build
-```
-
-Start the production server:
-
-```bash
-npm run start
-```
 
 ## Scripts
 
